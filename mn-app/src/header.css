@@ -1,5 +1,12 @@
-.App {
-  text-align: center;
+.loginForm{
+float: left;
+
+}
+
+.FloatingMenu {
+  position: fixed;
+  top:0px;
+  width: 100%;
 }
 
 .App-logo {
@@ -7,9 +14,10 @@
   height: 80px;
 }
 
-.App-header {
+.Floatingheader {
   background-color: #222;
   height: 80px;
+  width: 100%;
   padding: 20px;
   color: white;
   display:  flex;

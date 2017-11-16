@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Acceuil from './Acceuil';
 import registerServiceWorker from './registerServiceWorker';
+import Header from './header.js'
 
 
 class Index extends Component {
@@ -19,6 +20,7 @@ class Index extends Component {
   render() {
     return (
       <div>
+        <Header />
         {this.genPageElem(<Acceuil />)}
         {this.genPageElem(<App />)}
       </div>
