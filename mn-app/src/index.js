@@ -14,8 +14,10 @@ class Index extends Component {
 
   render() {
     return (
-      this.genPageElem(<Acceuil />),
-      this.genPageElem(<App />)
+      <div>
+        {this.genPageElem(<Acceuil />)}
+        {this.genPageElem(<App />)}
+      </div>
     );
   }
 }
