@@ -1,0 +1,55 @@
+{
+	"categories": {
+		"ExtremWarMachine": {
+			"icone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRclgk3w3DRzD69OhExvsQMeI--DE1_arr8PogUvt26lxTY0Gmp"
+		}
+	},
+	"configurations": {
+		"id_cfg_xxx1_xxxx": {
+			"categorie": "ExtremWarMachine",
+			"dateCrea": "29/10/2017",
+			"composants": [
+				"id_prc_i7_6700k_xxxx",
+				"id_cgr_xxxxx_xxxx",
+				"id_btr_xxxxx_xxxx"
+			],
+			"100charDescription": "Configuration destiné aux MasterRace ayant gagné au loto",
+			"fullDescription": "BlaBlaBla"
+		}
+	},
+	"processeurs": {
+		"id_prc_i7_6700k_xxxx": {
+			"prix": 350.00,
+			"noteCpuboss": 8.4,
+			"constructorWebsite": "https://ark.intel.com/fr/products/88195/Intel-Core-i7-6700K-Processor-8M-Cache-up-to-4_20-GHz",
+			"icone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpt9KFdUkYVJqwsZSmN5iXUOKbMjLcfhYPv11hL5WZPzVQPV3hvQ",
+			"30charDescription": "i7 6700k",
+			"100charDescription": "Configuration destiné aux MasterRace ayant gagné au loto",
+			"fullDescription": "BlaBlaBla"
+		}
+	},
+	"carteGraphiques": {
+		"id_cgr_xxxxx_xxxx": {
+			"prix": 350.00,
+			"noteGpuboss": 8.4,
+			"constructorWebsite": "https://ark.intel.com/fr/products/88195/Intel-Core-i7-6700K-Processor-8M-Cache-up-to-4_20-GHz",
+			"icone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpt9KFdUkYVJqwsZSmN5iXUOKbMjLcfhYPv11hL5WZPzVQPV3hvQ",
+			"30charDescription": "carte Haut de game",
+			"100charDescription": "Configuration destiné aux MasterRace ayant gagné au loto",
+			"fullDescription": "BlaBlaBla"
+		}
+	},
+	"boitiers": {
+		"id_btr_xxxxx_xxxx": {
+			"prix": 350.00,
+			"noteBeaute": 6.4,
+			"constructorWebsite": "https://ark.intel.com/fr/products/88195/Intel-Core-i7-6700K-Processor-8M-Cache-up-to-4_20-GHz",
+			"icone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpt9KFdUkYVJqwsZSmN5iXUOKbMjLcfhYPv11hL5WZPzVQPV3hvQ",
+			"30charDescription": "boitier rouge",
+			"100charDescription": "Configuration destiné aux MasterRace ayant gagné au loto",
+			"fullDescription": "BlaBlaBla"
+		}
+	}
+
+
+}
