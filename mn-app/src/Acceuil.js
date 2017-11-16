@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 class Acceuil extends Component {
+  backColor = "#f62"
   render() {
     return (
       <div className="App">

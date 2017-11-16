@@ -11,8 +11,8 @@ class Index extends Component {
 
   genPageElem(element) {
   	return (
-  		<div className="Page">
-  			{element}
+  		<div className="Page" style={{backgroundColor:element.backColor}}>
+  		 {element.render()}
   		</div>
   		)
   }
@@ -21,8 +21,8 @@ class Index extends Component {
     return (
       <div>
         <Header />
-        {this.genPageElem(<Acceuil />)}
-        {this.genPageElem(<App />)}
+        {this.genPageElem(new Acceuil)}
+        {this.genPageElem(new App)}
       </div>
     );
   }
