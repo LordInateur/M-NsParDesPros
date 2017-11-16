@@ -9,7 +9,11 @@ import registerServiceWorker from './registerServiceWorker';
 class Index extends Component {
 
   genPageElem(element) {
-  	return element
+  	return (
+  		<div className="Page">
+  			{element}
+  		</div>
+  		)
   }
 
   render() {
