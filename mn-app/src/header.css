@@ -1,5 +1,6 @@
 .loginForm{
 float: left;
+align: right;
 
 }
 
@@ -10,7 +11,7 @@ float: left;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 1s linear;
+  animation: App-logo-spin infinite 21s linear;
   height: 80px;
 }
 
