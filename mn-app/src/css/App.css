@@ -1,17 +1,6 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 60s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #AAA;
-  height: 80px;
-}
-
 .App-title {
   padding-top: 3%;
   text-align: left;
@@ -22,7 +11,10 @@
   text-align: left;
   color:#FFF;
 }
-
+.App-header {
+  background-color: #AAA;
+  height: 80px;
+}
 .App-content {
   background-color: #FFF;
   padding: 30px;
