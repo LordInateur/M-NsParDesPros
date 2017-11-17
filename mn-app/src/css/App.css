@@ -23,6 +23,18 @@
 
 .App-content {
   background-color: #FFF;
+  padding: 30px;
+}
+.App-categorie {
+   border: 2px solid #AAA;
+   margin-right: -2px;
+}
+.App-categorie img {
+  width: 80%;
+  height : 200px;
+}
+.App-categorie button {
+  width: 80%;
 }
 
 @keyframes App-logo-spin {

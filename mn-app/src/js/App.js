@@ -8,8 +8,13 @@ class App extends Component {
     //this.setState({backColor : "#333"})
     super()
     this.state = {
-      backgroundColor : "#79F"
+      backgroundColor : "#79F",
+      cols : [],
+      appData : dataBase
     }
+  }
+
+  componentWillMount(){
   }
 
   getBackgroundColor(){
@@ -17,16 +22,25 @@ class App extends Component {
   }
 
   getCols() {
-    var cols = [];
-    for(var categorie in dataBase.categories) {
-      cols.push(this.getCol(categorie) );
+    var newCols = []
+    for(var categorie in this.state.appData.categories) {
+      newCols.push(this.getCol(categorie))
     }
-    return (<div className="row"> {cols} </div>)
+    // newCols.sort(
+    //   (a,b) => (a < b) ? 1 : -1
+    // );
+    this.setState({cols : newCols});
+    return (<div className="row"> {newCols} </div>)
   }
 
   getCol(categorie) {
-    return (<div className="col-md-4">
-      {categorie}
+    var objCategorie = dataBase.categories[categorie];
+    return (
+    <div className="col-md-4 App-categorie">
+      <h3  title={objCategorie.title}>{objCategorie.name}</h3>
+      <img src={objCategorie.icone}/>
+      <button> Choisir </button>
+      <p>{objCategorie.description}</p>
     </div>)
   }
 

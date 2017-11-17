@@ -1,12 +1,19 @@
 {
 	"categories": {
-		"ExtremWarMachine0": {
-			"icone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRclgk3w3DRzD69OhExvsQMeI--DE1_arr8PogUvt26lxTY0Gmp"
+		"HautePerfBureautique": {
+			"name":"Bureautique",
+			"description":"Ordinateur de bureau destiné à une utilisation basique de la machine.",
+			"displayOrder" : 2,
+			"icone": "https://dailygeekshow.com/wp-content/uploads/2014/07/cerveau-puce-informatique.jpg"
 		},
-		"ExtremWarMachine1": {
-			"icone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRclgk3w3DRzD69OhExvsQMeI--DE1_arr8PogUvt26lxTY0Gmp"
+		"CausualGamig": {
+			"name":"Gaming",
+			"displayOrder" : 1,
+			"icone": "http://www.gameland-shop.fr/wp-content/uploads/2017/06/gaming.jpg"
 		},
-		"ExtremWarMachine2": {
+		"ExtremWarMachine": {
+			"name":"GAMING !!!",
+			"displayOrder" : 3,
 			"icone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRclgk3w3DRzD69OhExvsQMeI--DE1_arr8PogUvt26lxTY0Gmp"
 		}
 	},
