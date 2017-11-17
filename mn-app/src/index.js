@@ -14,7 +14,11 @@ class Index extends Component {
 
   genPageElem(element) {
   	return (
-  		<div className="Page" style={{backgroundColor:element.getBackgroundColor()}}>
+  		<div
+        className="Page"
+        style={{
+          backgroundColor:element.getBackgroundColor(),
+          backgroundImage:"url(" + element.getBackgroundPicture() +")" }}>
   		 {element.render()}
   		</div>
   		)

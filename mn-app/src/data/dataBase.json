@@ -2,17 +2,22 @@
 	"categories": {
 		"HautePerfBureautique": {
 			"name":"Bureautique",
-			"description":"Ordinateur de bureau destiné à une utilisation basique de la machine.",
+			"title":"Destiné aux travailleurs",
+			"description":"Des ordinateurs de bureau destinés à une utilisation basique de la machine.",
 			"displayOrder" : 2,
 			"icone": "https://dailygeekshow.com/wp-content/uploads/2014/07/cerveau-puce-informatique.jpg"
 		},
 		"CausualGamig": {
 			"name":"Gaming",
+			"description":"Des ordinateurs de bureau destinés à une utilisation avancé et gaming.",
+			"title":"Destiné aux joueurs",
 			"displayOrder" : 1,
 			"icone": "http://www.gameland-shop.fr/wp-content/uploads/2017/06/gaming.jpg"
 		},
 		"ExtremWarMachine": {
-			"name":"GAMING !!!",
+			"name":"!!! GAMING !!!",
+			"title":"Destiné aux joueurs exigents",
+			"description":"Des ordinateurs de bureau haute performance destiné aux chercheurs et/ou aux joueurs pc éxigent.",
 			"displayOrder" : 3,
 			"icone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRclgk3w3DRzD69OhExvsQMeI--DE1_arr8PogUvt26lxTY0Gmp"
 		}

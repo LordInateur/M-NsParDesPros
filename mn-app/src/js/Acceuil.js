@@ -13,6 +13,9 @@ class Acceuil extends Component {
   getBackgroundColor(){
     return this.state.backgroundColor
   }
+  getBackgroundPicture(){
+    return this.state.backgroundPicture
+  }
 
   render() {
     return (
