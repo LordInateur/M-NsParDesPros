@@ -19,7 +19,7 @@ class Acceuil extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="Acc" id="Acc">
       </div>
 
     );

@@ -5,7 +5,6 @@ import dataBase from './../data/dataBase.json';
 
 class App extends Component {
   constructor() {
-    //this.setState({backColor : "#333"})
     super()
     this.state = {
       backgroundColor : "#79F",
@@ -13,9 +12,6 @@ class App extends Component {
       cols : [],
       appData : dataBase
     }
-  }
-
-  componentWillMount(){
   }
 
   getBackgroundColor(){
@@ -55,10 +51,10 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App container">
+      <div className="App container"  id="App">
         <header className="App-header">
         </header>
-        <h1 className="App-title">Alors dites moi tout </h1>
+        <h1 className="App-title">Alors dites nous tout, </h1>
         <p className="App-intro">
           Comment comptez vous utiliser votre machine ?
         </p>
@@ -66,7 +62,7 @@ class App extends Component {
           {this.getCols()}
         </p>
       </div>
-    );
+    )
   }
 }
 
