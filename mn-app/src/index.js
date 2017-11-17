@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './bootstrap.css';
 
-import Header from './header.js'
+import Header from './header'
 import Acceuil from './Acceuil';
 import App from './App';
 

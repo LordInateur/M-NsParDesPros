@@ -1,0 +1,14 @@
+
+
+.Acc-header {
+  background-color: #222;
+  height: 80px;
+  padding: 20px;
+  color: white;
+  display:  flex;
+}
+
+.Acc-title {
+  padding-top: 3%;
+  text-align: left;
+}
