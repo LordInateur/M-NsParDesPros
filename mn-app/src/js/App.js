@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './../img/logo.svg';
 import './../css/App.css';
-import dataBase from './../data/dataBase.json';
+import dataBase from './../data/appData.json';
 
 class App extends Component {
   constructor() {
