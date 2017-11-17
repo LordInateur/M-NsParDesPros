@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './Acceuil.css';
+import logo from './../img/logo.svg';
+import './../css/Acceuil.css';
 
 class Acceuil extends Component {
   backColor = "#f62"
