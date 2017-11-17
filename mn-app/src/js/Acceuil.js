@@ -3,7 +3,17 @@ import logo from './../img/logo.svg';
 import './../css/Acceuil.css';
 
 class Acceuil extends Component {
-  backColor = "#f62"
+  constructor() {
+    super()
+    this.state = {
+      backgroundColor : "#f62"
+    }
+  }
+
+  getBackgroundColor(){
+    return this.state.backgroundColor
+  }
+  
   render() {
     return (
       <div className="App">

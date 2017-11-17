@@ -1,6 +1,12 @@
 {
 	"categories": {
-		"ExtremWarMachine": {
+		"ExtremWarMachine0": {
+			"icone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRclgk3w3DRzD69OhExvsQMeI--DE1_arr8PogUvt26lxTY0Gmp"
+		},
+		"ExtremWarMachine1": {
+			"icone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRclgk3w3DRzD69OhExvsQMeI--DE1_arr8PogUvt26lxTY0Gmp"
+		},
+		"ExtremWarMachine2": {
 			"icone": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRclgk3w3DRzD69OhExvsQMeI--DE1_arr8PogUvt26lxTY0Gmp"
 		}
 	},

@@ -1,14 +1,32 @@
 import React, { Component } from 'react';
 import logo from './../img/logo.svg';
 import './../css/App.css';
-//import data from './../../dataBase.json';
+import dataBase from './../data/dataBase.json';
 
 class App extends Component {
-  backColor = "#79F"
+  constructor() {
+    //this.setState({backColor : "#333"})
+    super()
+    this.state = {
+      backgroundColor : "#79F"
+    }
+  }
+
+  getBackgroundColor(){
+    return this.state.backgroundColor
+  }
 
   getCols() {
+    var cols = [];
+    for(var categorie in dataBase.categories) {
+      cols.push(this.getCol(categorie) );
+    }
+    return (<div className="row"> {cols} </div>)
+  }
+
+  getCol(categorie) {
     return (<div className="col-md-4">
-      You Noob
+      {categorie}
     </div>)
   }
 
