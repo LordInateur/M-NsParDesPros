@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './header.css';
-import './bootstrap.css';
 
 class Acceuil extends Component {
   render() {

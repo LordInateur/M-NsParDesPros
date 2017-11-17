@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import Acceuil from './Acceuil';
-import registerServiceWorker from './registerServiceWorker';
-import Header from './header.js'
 
+import './index.css';
+import './bootstrap.css';
+
+import Header from './header.js'
+import Acceuil from './Acceuil';
+import App from './App';
+
+import registerServiceWorker from './registerServiceWorker';
 
 class Index extends Component {
 
